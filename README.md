@@ -1,2 +1,2 @@
-# BPDAdefenseGAN
-A modification of [DefenseGAN](https://github.com/kabkabm/defensegan), combining with BDPA attack and relaxed A3T defense
+# DefenseGAN + BPDA + Relaxed A3T
+A modification of [DefenseGAN](https://github.com/kabkabm/defensegan), incorporating [BDPA](https://github.com/anishathalye/obfuscated-gradients) attack and relaxed [A3T](https://arxiv.org/pdf/1801.04055.pdf) defense
