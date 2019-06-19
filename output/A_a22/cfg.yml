@@ -1,0 +1,24 @@
+BATCH_SIZE: 25
+CRITIC_ITERS: 5
+DATASET_NAME: mnist
+GRADIENT_PENALTY_LAMBDA: 10.0
+IMAGE_DIM: [28, 28, 1]
+INPUT_TRANSFORM_TYPE: 0
+LATENT_DIM: 128
+MODE: wgan-gp
+NB_CLASSES: 10
+NET_DIM: 64
+NUM_GPUS: 1
+OUTPUT_DIR: output
+REC_ITERS: 50
+REC_LR: 10.0
+REC_RR: 5
+TEST_BATCH_SIZE: 25
+TRAIN_ITERS: 1000
+USE_BN: false
+batch_size: 25
+defense_type: a2
+model_folder: trained_classifier
+model_type: A
+rec_iters: 50
+rec_rr: 5
